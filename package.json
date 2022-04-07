@@ -1,0 +1,11 @@
+{
+  "name": "dyadic-interview-test-backend",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Geoffrey Cheung",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
