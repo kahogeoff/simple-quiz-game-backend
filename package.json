@@ -6,6 +6,16 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "express": "^4.17.3"
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "redis": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src"
   }
 }
