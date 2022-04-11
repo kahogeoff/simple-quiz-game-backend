@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "main": "index.js",
   "author": "Geoffrey Cheung",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "axios": "^0.26.1",
@@ -16,6 +15,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
+    "start": "node ./src/index.js",
     "dev": "nodemon src"
   }
 }
